@@ -1,0 +1,39 @@
+/*.mdc-menu-surface{
+	opacity: 1;
+	display:block;
+	position: relative;
+}*/
+/*hr{
+	color: lightgray;
+}*/
+/*.mdc-menu{
+	margin: 0 auto;
+	display: none;
+}*/
+.mdc-menu-surface{
+	/*top: 67px;*/
+	width: 200px;
+	/*left: 452px;*/
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 450px;
+}
+.bgcolor{
+	background-color:gray;
+}
+/*.mdc-menu{
+	display: hidden;
+}*/
+/*.mdc-snackbar__surface{
+	opacity: 1;
+}*/
+.mdc-chip .mdc-chip__icon--leading:not(.mdc-chip__icon--leading-hidden) {
+     margin-left: auto; 
+ }
+ .mdc-button--dense{
+ 	border: none;
+ 	border-radius: 5px;
+ 	background-color: black;
+ 	color: white;
+ 	outline: none;
+ }

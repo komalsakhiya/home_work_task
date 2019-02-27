@@ -1,0 +1,139 @@
+<html>
+<head>
+	<title>home task 2</title>
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<!-- material menu -->
+	<div class="mdc-layout-grid">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-4"></div>
+			<div class="mdc-layout-grid__cell--span-5">
+				<button class="mdc-button--dense" id="menubtn">
+					<span class="mdc-button__label">MENU</span>
+				</button>
+		
+				<div class="mdc-menu mdc-menu-surface">
+					<ul class="mdc-list">
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Back</span>
+						</li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">forward</span>
+						</li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Reload</span>
+						</li>
+						<hr>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Save as</span>
+						</li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Print</span>
+						</li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Translate</span>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- material chip -->
+		<div class="mdc-layout-grid">
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell--span-4"></div>
+				<div class="mdc-layout-grid__cell--span-5">
+					<div class="mdc-card bgcolor">
+						<div class="mdc-chip-set">
+							<div class="mdc-chip" tabindex="0">
+								<div class="mdc-chip__text">Chip one</div>
+								<i class="material-icons mdc-chip__icon mdc-chip__icon--leading">event</i>
+							</div>
+							<div class="mdc-chip" tabindex="0">
+								<div class="mdc-chip__text">Chip two</div>
+								<i class="material-icons mdc-chip__icon mdc-chip__icon--leading">star</i>
+							</div>
+							<div class="mdc-chip" tabindex="0">
+								<div class="mdc-chip__text">Chip three</div>
+								<i class="material-icons mdc-chip__icon mdc-chip__icon--leading">panorama</i>
+							</div>
+							<div class="mdc-chip" tabindex="0">
+								<div class="mdc-chip__text">Chip four</div>
+								<i class="material-icons mdc-chip__icon mdc-chip__icon--leading">lock</i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- snackbar -->
+		<div class="mdc-layout-grid">
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell--span-4"></div>
+				<div class="mdc-layout-grid__cell--span-5">
+					<button class="mdc-button--dense" id="snackbar1">
+						<span class="mdc-button__label">STACKED</span>
+					</button>
+					<div class="mdc-snackbar  mdc-snackbar--stacked">
+						<div class="mdc-snackbar__surface">
+							<div class="mdc-snackbar__label"
+							role="status"
+							aria-live="polite">
+							Can't send photo. Retry in 5 seconds.
+						</div>
+						<div class="mdc-snackbar__actions">
+							<button type="button" class="mdc-button mdc-snackbar__action">Retry</button>
+							<button type="button" class="mdc-button mdc-snackbar__action"><i class="material-icons mdc-chip__icon mdc-chip__icon--leading">close</i></button>
+
+						</div>
+					</div>
+				</div>
+				<button class="mdc-button--dense" id="snackbar2">
+					<span class="mdc-button__label">LEADING</span>
+				</button>
+				<div class="mdc-snackbar  mdc-snackbar--leading">
+					<div class="mdc-snackbar__surface">
+						<div class="mdc-snackbar__label"
+						role="status"
+						aria-live="polite">
+						Can't send photo. Retry in 5 seconds.
+					</div>
+					<div class="mdc-snackbar__actions">
+						<button type="button" class="mdc-button mdc-snackbar__action">Retry</button>
+						<button type="button" class="mdc-button mdc-snackbar__action"><i class="material-icons mdc-chip__icon mdc-chip__icon--leading">close</i></button>
+					</div>
+				</div>
+			</div>
+			<button class="mdc-button--dense" id="snackbar3">
+					<span class="mdc-button__label">BASELINE</span>
+				</button>
+				<div class="mdc-snackbar leading">
+					<div class="mdc-snackbar__surface">
+						<div class="mdc-snackbar__label"
+						role="status"
+						aria-live="polite">
+						Can't send photo. Retry in 5 seconds.
+					</div>
+					<div class="mdc-snackbar__actions">
+						<button type="button" class="mdc-button mdc-snackbar__action">Retry</button>
+						<button type="button" class="mdc-button mdc-snackbar__action"><i class="material-icons mdc-chip__icon mdc-chip__icon--leading">close</i></button>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+</div>
+
+
+
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>	
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
+
